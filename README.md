@@ -36,7 +36,7 @@ The backend server will run on `http://localhost:8000`.
 1. Open Google Chrome and go to `chrome://extensions/`.
 2. Enable **Developer mode** using the toggle switch in the top right corner.
 3. Click on the **Load unpacked** button.
-4. Select the `extension` folder from this project repository (`c:\Users\keert\OneDrive\Desktop\YTChatBot\extension`).
+4. Select the `extension` folder from this project repository.
 5. The extension "YouTube RAG Chatbot" will appear in your list.
 6. Open any YouTube video page, click on the extension icon, and start asking questions!
 
