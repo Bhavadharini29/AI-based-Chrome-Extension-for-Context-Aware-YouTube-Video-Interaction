@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YT Chatbot</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>YT RAG Chatbot</h2>
+            <div id="status" class="status checking">Checking video...</div>
+        </div>
+        <div class="chat-container" id="chatContainer">
+            <div class="message system">Welcome! Ask any question about the current YouTube video.</div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Ask a question..." disabled>
+            <button id="sendBtn" disabled>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
