@@ -46,4 +46,4 @@ The backend server will run on `http://localhost:8000`.
 2. It sends your question and the `video_id` to the FastAPI backend.
 3. The backend fetches the transcript using `youtube-transcript-api`.
 4. The transcript is chunked and stored in a FAISS vector database using OpenAI embeddings.
-5. LangChain uses a RAG pipeline with GPT-4o-mini to answer your question precisely based on the context from the video.
+5. LangChain uses a RAG pipeline with Gemini Model to answer your question precisely based on the context from the video.
